@@ -57,3 +57,19 @@
               padding: 50px;
               border-radius: 30px;
           }
+          
+           #about {
+              margin: 0 auto;
+              text-align: center;
+              background: aliceblue;
+          }
+          
+           .paragraph {
+              font-family: Helvetica, Arial, sans-serif;
+              color: #333;
+          }
+          
+          
+          
+          
+          
