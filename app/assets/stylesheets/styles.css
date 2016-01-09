@@ -35,7 +35,7 @@
               color: #fc3;
               font-size: 60px;  
               font-family: Courier, Arial, sans-serif;
-              margin-bottom: 100px;
+              margin-bottom: 40px;
           }
           
           h1:hover {
@@ -43,6 +43,31 @@
               -moz-animation: colorFade 4s alternate;
               -o-animation: colorFade 4s alternate;
               animation: colorFade 4s alternate;
+          }
+          
+          #navContainer ul {
+             margin-bottom: 50px;
+             padding: 0;
+             list-style-type: none;
+             text-align: center;
+             box-sizing: border-box;
+          }
+          
+          #navContainer ul li {
+             display: inline;
+          }
+          
+          #navContainer ul li a {
+             text-decoration: none;
+             margin: 0 10px 40px 0;
+             padding: 10px 40px;
+             color: #fff;
+             background: linear-gradient(to top, #333, black);
+          }
+          
+          #navContainer ul li a:hover {
+             background: linear-gradient(#777, #333);
+             text-shadow: 0 2px 2px #333;
           }
           
           h2:hover {
