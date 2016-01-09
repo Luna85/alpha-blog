@@ -1,0 +1,59 @@
+          @-webkit-keyframes colorFade {
+              from { color: #fc3; }
+              
+              to { color: black; }
+          }
+          
+          @-moz-keyframes colorFade {
+              from { color: #fc3; }
+              
+              to { color: black;  }
+          }
+          
+          @-o-keyframes colorFade {
+              from { color: #fc3; }
+              
+              to { color: black;  }
+          }
+          
+          @keyframes colorFade {
+              from { color: #fc3; }
+              
+              to { color: black; }
+          }
+        
+          body {
+              background-image: url("http://curatti.com/wp-content/uploads/2015/08/girl_blogging1.jpg");
+              background-size: cover;
+              color: white;
+              font-family: Helvetica, Arial, sans-serif;
+          }
+          
+          h1 {
+              text-align: center;
+              text-shadow: 1px -1px 4px #333;
+              color: #fc3;
+              font-size: 60px;  
+              font-family: Courier, Arial, sans-serif;
+              margin-bottom: 100px;
+          }
+          
+          h1:hover {
+              -webkit-animation: colorFade 4s alternate;
+              -moz-animation: colorFade 4s alternate;
+              -o-animation: colorFade 4s alternate;
+              animation: colorFade 4s alternate;
+          }
+          
+          h2:hover {
+              color: #f91;
+          }
+          
+          #mainContainer {
+              margin: 0 auto;
+              width: 1000px;
+              background: rgba(0, 0, 0, 0.6);
+              box-sizing: border-box;
+              padding: 50px;
+              border-radius: 30px;
+          }
