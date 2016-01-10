@@ -34,8 +34,9 @@
               text-shadow: 1px -1px 4px #333;
               color: #fc3;
               font-size: 60px;  
-              font-family: Courier, Arial, sans-serif;
-              margin-bottom: 40px;
+              font-family: Georgia,serif;
+              margin-bottom: 60px;
+              letter-spacing: 1px;
           }
           
           h1:hover {
@@ -63,6 +64,9 @@
              padding: 10px 40px;
              color: #fff;
              background: linear-gradient(to top, #333, black);
+             opacity: 0.9;
+             border-top-left-radius: 10px;
+             border-top-right-radius: 10px;
           }
           
           #navContainer ul li a:hover {
@@ -75,12 +79,18 @@
           }
           
           #mainContainer {
-              margin: 0 auto;
-              width: 1000px;
-              background: rgba(0, 0, 0, 0.6);
-              box-sizing: border-box;
-              padding: 50px;
-              border-radius: 30px;
+             margin: 0 auto;
+             width: 1000px;
+             background: rgba(0, 0, 0, 0.6);
+             box-sizing: border-box;
+             padding: 50px;
+             border-radius: 30px;
+             font-family: 'Hoefler Text', Georgia, 'Times New Roman', serif;
+          }
+          
+          img {
+            opacity: 0.8;
+            border-radius: 20px;
           }
           
            #about {
