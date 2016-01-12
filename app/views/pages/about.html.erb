@@ -6,18 +6,19 @@
       
         <title>Alpha Blog</title>   
         
+        <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
         <%= stylesheet_link_tag "app/assets/styles.css" %>
         
     </head>
     
-    <body id="about">
+    <body id="aboutBody">
       
         <h1>About Alpha Blog</h1>
         <img src="http://www.pumpkinwebdesign.com/wp-content/uploads/2015/08/Why-Blog.jpg" alt="Blog image">
   
-        <p class="paragraph">Alpha Blog allows individuals to express their opinions on a broad spectrum of fascinating topics.</p>
+        <p id="aboutParagraph">Alpha Blog allows individuals to express their opinions on a broad spectrum of fascinating topics.</p>
        
-       <nav class="navContainer">
+       <nav>
            <ul>
                <li><%= link_to 'Home', root_path %></li> 
            </ul>

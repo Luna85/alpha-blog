@@ -1,9 +1,42 @@
-<h1>Showing selected article</h1>
+<!DOCTYPE html>
 
-<h2>
- Title: <%= @article.title %> 
-</h2>
+<html>
 
-<p>
-  Description: <%= @article.description %>
-</p>
+      <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+        <title>Alpha Blog</title>   
+        
+        <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+        <%= stylesheet_link_tag "app/assets/styles.css" %>
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        
+     </head>
+     
+     <body>
+  
+        <h1>Showing selected article</h1>
+        
+        <h2>
+         Title: <%= @article.title %> 
+        </h2>
+        
+        <p>
+          Description: <%= @article.description %>
+        </p>
+        
+        <%= link_to 'Edit this article', edit_article_path(@article) %>
+        <%= link_to 'Back', articles_path %>
+
+    </body>
+    
+</html>

@@ -26,7 +26,6 @@
               background-image: url("http://curatti.com/wp-content/uploads/2015/08/girl_blogging1.jpg");
               background-size: cover;
               color: white;
-              font-family: Helvetica, Arial, sans-serif;
           }
           
           h1 {
@@ -34,16 +33,16 @@
               text-shadow: 1px -1px 4px #333;
               color: #fc3;
               font-size: 60px;  
-              font-family: 'Helvetica Neue', sans-serif;
+              font-family: 'Josefin Slab', serif;
               margin-bottom: 60px;
               letter-spacing: 1px;
           }
           
           h1:hover {
-              -webkit-animation: colorFade 4s alternate;
-              -moz-animation: colorFade 4s alternate;
-              -o-animation: colorFade 4s alternate;
-              animation: colorFade 4s alternate;
+             -webkit-animation: colorFade 4s alternate;
+             -moz-animation: colorFade 4s alternate;
+             -o-animation: colorFade 4s alternate;
+             animation: colorFade 4s alternate;
           }
           
           #navContainer ul {
@@ -60,6 +59,7 @@
           
           #navContainer ul li a {
              text-decoration: none;
+             font-size: 20px;
              margin: 0 10px 40px 0;
              padding: 10px 40px;
              color: #fff;
@@ -75,17 +75,19 @@
           }
           
           h2:hover {
-              color: #f91;
+            color: #f91;
           }
           
           #mainContainer {
-             margin: 0 auto;
-             width: 1000px;
-             background: rgba(0, 0, 0, 0.6);
-             box-sizing: border-box;
-             padding: 50px;
-             border-radius: 30px;
-             font-family: 'Hoefler Text', Georgia, 'Times New Roman', serif;
+            margin: 0 auto;
+            width: 1200px;
+            background: rgba(0, 0, 0, 0.6);
+            box-sizing: border-box;
+            padding: 50px;
+            border-radius: 30px;
+            font-family: 'Josefin Slab', serif;
+            font-size: 18px;
+            color: white;
           }
           
           img {
@@ -93,17 +95,27 @@
             border-radius: 20px;
           }
           
-           #about {
-              margin: 0 auto;
-              text-align: center;
-              background: aliceblue;
+          .footer {
+            color: white;
+            font-family: 'Josefin Slab', serif;
+            text-align: center;
+            padding-top: 40px;
           }
           
-           .paragraph {
-             font-family: Helvetica, Arial, sans-serif;
-             color: #333;
-             text-align: center;
+          
+          #aboutBody {
+            margin: 0 auto;
+            text-align: center;
+            background: aliceblue;
           }
+          
+          #aboutParagraph {
+            font-family: Helvetica, Arial, sans-serif;
+            color: #333;
+            text-align: center;
+          }
+          
+         
           
           
           

@@ -22,9 +22,9 @@
         
      </head>
      
-     <body>   
+     <body>
 
-        <h1>Create an article</h1>
+        <h1>Edit existing article</h1>
         
           <% if @article.errors.any? %>
             <h2>The following errors prevented the article from getting created</h2>
@@ -54,8 +54,9 @@
           </p>
         
         <% end %>
-      
+        
         <%= link_to 'Back', articles_path %>
-    </body>
 
+    </body>
+    
 </html>
