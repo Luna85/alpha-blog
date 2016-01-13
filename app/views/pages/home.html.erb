@@ -8,10 +8,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
       
-        <title>Alpha Blog</title>   
+        <title>Alpha Blog</title> 
         
-        <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
         <%= stylesheet_link_tag "app/assets/styles.css" %>
+        
+        <!-- Google Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
         
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,12 +29,12 @@
         
         <div id="mainContainer"> 
       
-            <h1>Alpha Blog</h1>
+            <h1>Alpha <span>Blog</span></h1>
             
             <nav id="navContainer">
               <ul>
                 <li><%= link_to 'Create Article', new_article_path %></li>
-                <li><a href="">Categories</a></li>
+                <li><%= link_to 'Blogs', articles_path %></li>
                 <li><a href="">What's New</a></li>
                 <li><a href="">Trending</a></li>
                 <li><%= link_to 'About', about_path %></li>

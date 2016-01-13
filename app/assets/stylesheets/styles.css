@@ -23,7 +23,7 @@
           }
         
           body {
-              background-image: url("http://curatti.com/wp-content/uploads/2015/08/girl_blogging1.jpg");
+              background-image: url("http://ipadinsight.wpengine.netdna-cdn.com/wp-content/uploads/2012/09/Landmark-retina-iPad-wallpaper.jpg");
               background-size: cover;
               color: white;
           }
@@ -34,15 +34,24 @@
               color: #fc3;
               font-size: 60px;  
               font-family: 'Josefin Slab', serif;
-              margin-bottom: 60px;
+              margin: 10px auto 60px auto;
               letter-spacing: 1px;
+              width: 300px;
+              text-align: center;
+              text-shadow: 1px -2px 6px #ffba99;
           }
           
           h1:hover {
-             -webkit-animation: colorFade 4s alternate;
-             -moz-animation: colorFade 4s alternate;
-             -o-animation: colorFade 4s alternate;
-             animation: colorFade 4s alternate;
+             -webkit-animation: colorFade 2s alternate;
+             -moz-animation: colorFade 2s alternate;
+             -o-animation: colorFade 2s alternate;
+             animation: colorFade 2s alternate;
+          }
+          
+          span {
+             font-family: 'Indie Flower', cursive;
+             font-size: 100px;
+             text-shadow: 1px -2px 6px #ffba99;
           }
           
           #navContainer ul {
@@ -61,17 +70,23 @@
              text-decoration: none;
              font-size: 20px;
              margin: 0 10px 40px 0;
-             padding: 10px 40px;
+             padding: 12px 44px;
              color: #fff;
              background: linear-gradient(to top, #333, black);
              opacity: 0.9;
              border-top-left-radius: 10px;
              border-top-right-radius: 10px;
+             border: solid 1px #ffffff;
           }
           
           #navContainer ul li a:hover {
              background: linear-gradient(to top, black, #333);
              text-shadow: 0 2px 2px #333;
+             border: dashed 1px #d9d9d9;
+          }
+          
+          h2 {
+            width: 400px;
           }
           
           h2:hover {
