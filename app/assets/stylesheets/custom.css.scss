@@ -3,6 +3,30 @@ $navbar-default-bg: rgba(0,0,0,0.8);
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+@-webkit-keyframes colorFade {
+    from { color: inherit; }
+    
+    to { color: #333; }
+}
+
+@-moz-keyframes colorFade {
+    from { color: #fff; }
+    
+    to { color: #333;  }
+}
+
+@-o-keyframes colorFade {
+    from { color: #fff; }
+    
+    to { color: #333;  }
+}
+
+@keyframes colorFade {
+    from { color: #fff; }
+    
+    to { color: #333; }
+}
+
 #logo {
   float: left;
   font-family: 'Poiret One', cursive;
@@ -33,7 +57,7 @@ $navbar-default-bg: rgba(0,0,0,0.8);
 .jumbotron {
   background-image: asset-url('keyboard_image.jpeg');
   background-size: cover;
-  height: 375px;
+  height: 480px;
   box-shadow: 1px 2px 2px #333;
 }
 
@@ -43,8 +67,28 @@ $navbar-default-bg: rgba(0,0,0,0.8);
   font-size: 80px;
   color: #fff;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 22px;
   letter-spacing: -1;
+}
+
+.jumbotron h1:hover {
+   -webkit-animation: colorFade 2s alternate;
+   -moz-animation: colorFade 2s alternate;
+   -o-animation: colorFade 2s alternate;
+   animation: colorFade 2s alternate;
+}
+
+.jumbotron h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.jumbotron h2 span {
+  color: #fff;
+  display: block;
+  margin-top: 10px;
 }
 
 .btn-xlarge {
@@ -72,4 +116,28 @@ footer ul li {
   float: left;
   margin-left: 15px;
 }
+
+img {
+  opacity: 0.8;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+#aboutBody {
+  margin: 0 auto;
+  text-align: center;
+  background: aliceblue;
+}
+
+#aboutBody nav ul li {
+  list-style-type: none;
+}
+
+.paragraph {
+  color: #333;
+  text-align: center;
+}
+
+
+
 
