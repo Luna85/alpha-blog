@@ -1,141 +1,63 @@
-          @-webkit-keyframes colorFade {
-              from { color: #fc3; }
-              
-              to { color: black; }
-          }
-          
-          @-moz-keyframes colorFade {
-              from { color: #fc3; }
-              
-              to { color: black;  }
-          }
-          
-          @-o-keyframes colorFade {
-              from { color: #fc3; }
-              
-              to { color: black;  }
-          }
-          
-          @keyframes colorFade {
-              from { color: #fc3; }
-              
-              to { color: black; }
-          }
-        
-          body {
-              background-image: url("http://ipadinsight.wpengine.netdna-cdn.com/wp-content/uploads/2012/09/Landmark-retina-iPad-wallpaper.jpg");
-              background-size: cover;
-              color: white;
-          }
-          
-          h1 {
-              text-align: center;
-              color: #fc3;
-              font-size: 60px;  
-              font-family: 'Josefin Slab', serif;
-              margin: 10px auto 60px auto;
-              letter-spacing: 1px;
-              width: 250px;
-              text-shadow: 1px -2px 6px #ffba99;
-          }
-          
-          h1:hover {
-             -webkit-animation: colorFade 2s alternate;
-             -moz-animation: colorFade 2s alternate;
-             -o-animation: colorFade 2s alternate;
-             animation: colorFade 2s alternate;
-          }
-          
-          span {
-             font-family: 'Indie Flower', cursive;
-             font-size: 100px;
-             text-shadow: 1px -2px 6px #ffba99;
-          }
-          
-          #navContainer ul {
-             margin-bottom: 50px;
-             padding: 0;
-             list-style-type: none;
-             text-align: center;
-             box-sizing: border-box;
-          }
-          
-          #navContainer ul li {
-             display: inline;
-          }
-          
-          #navContainer ul li a {
-             text-decoration: none;
-             font-size: 20px;
-             margin: 0 10px 40px 0;
-             padding: 12px 44px;
-             color: #fff;
-             background: linear-gradient(to top, #333, black);
-             opacity: 0.9;
-             border-top-left-radius: 10px;
-             border-top-right-radius: 10px;
-             border: solid 1px #ffffff;
-          }
-          
-          #navContainer ul li a:hover {
-             background: linear-gradient(to top, black, #333);
-             text-shadow: 0 2px 2px #333;
-             border: dashed 1px #d9d9d9;
-          }
-          
-          h2 {
-            width: 660px;
-          }
-          
-          h2:hover {
-            color: #f91;
-          }
-          
-          #mainContainer {
-            margin: 0 auto;
-            width: 1200px;
-            background: rgba(0, 0, 0, 0.6);
-            box-sizing: border-box;
-            padding: 50px;
-            border-radius: 30px;
-            font-family: 'Josefin Slab', serif;
-            font-size: 18px;
-            color: white;
-          }
-          
-          img {
-            opacity: 0.8;
-            border-radius: 20px;
-          }
-          
-          .footer {
-            color: white;
-            font-family: 'Josefin Slab', serif;
-            text-align: center;
-            padding-top: 40px;
-          }
-          
-          
-          #aboutBody {
-            margin: 0 auto;
-            text-align: center;
-            background: aliceblue;
-          }
-          
-          #aboutParagraph {
-            font-family: Helvetica, Arial, sans-serif;
-            color: #333;
-            text-align: center;
-          }
-          
-          form input[type="text"], input[type="submit"] {
-            color: black;
-          }
-          
-          #article_description {
-            color: black;
-          }
-          
+@-webkit-keyframes colorFade {
+    from { color: inherit; }
+    
+    to { color: #333; }
+}
+
+@-moz-keyframes colorFade {
+    from { color: #fff; }
+    
+    to { color: #333;  }
+}
+
+@-o-keyframes colorFade {
+    from { color: #fff; }
+    
+    to { color: #333;  }
+}
+
+@keyframes colorFade {
+    from { color: #fff; }
+    
+    to { color: #333; }
+}
+
+h1:hover {
+   -webkit-animation: colorFade 2s alternate;
+   -moz-animation: colorFade 2s alternate;
+   -o-animation: colorFade 2s alternate;
+   animation: colorFade 2s alternate;
+}
+
+img {
+  opacity: 0.8;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+#aboutBody {
+  margin: 0 auto;
+  text-align: center;
+  background: aliceblue;
+}
+
+#aboutBody nav ul li {
+  list-style-type: none;
+}
+
+#aboutParagraph {
+  color: #333;
+  text-align: center;
+}
+
+form input[type="text"], input[type="submit"] {
+  color: black;
+}
+
+#article_description {
+  color: black;
+}
+
          
           
           
