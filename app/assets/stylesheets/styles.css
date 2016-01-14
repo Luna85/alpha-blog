@@ -35,7 +35,7 @@
               font-family: 'Josefin Slab', serif;
               margin: 10px auto 60px auto;
               letter-spacing: 1px;
-              width: 300px;
+              width: 250px;
               text-shadow: 1px -2px 6px #ffba99;
           }
           
@@ -84,7 +84,7 @@
           }
           
           h2 {
-            width: 400px;
+            width: 6200px;
           }
           
           h2:hover {
