@@ -84,7 +84,7 @@
           }
           
           h2 {
-            width: 6200px;
+            width: 620px;
           }
           
           h2:hover {
@@ -128,7 +128,7 @@
             text-align: center;
           }
           
-          form input[type="text"], input[type="submit"], input[type="textarea"] {
+          form input[type="text"], input[type="submit"] {
             color: black;
           }
           
