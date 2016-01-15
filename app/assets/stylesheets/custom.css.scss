@@ -27,6 +27,10 @@ $navbar-default-bg: rgba(0,0,0,0.8);
     to { color: #333; }
 }
 
+body {
+  background: aliceblue;
+}
+
 #logo {
   float: left;
   font-family: 'Poiret One', cursive;
@@ -80,19 +84,6 @@ h1, h2.article-title {
    -moz-animation: colorFade 2s alternate;
    -o-animation: colorFade 2s alternate;
    animation: colorFade 2s alternate;
-}
-
-.jumbotron h2 {
-  font-family: 'Josefin Sans', sans-serif;
-  color: #fff;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.jumbotron h2 span {
-  color: #fff;
-  display: block;
-  margin-top: 10px;
 }
 
 .btn-xlarge {
@@ -159,8 +150,10 @@ img {
 }
 
 .paragraph {
-  color: #333;
+  color: #999;
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
 }
 
 
