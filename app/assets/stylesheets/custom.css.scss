@@ -54,7 +54,7 @@ $navbar-default-bg: rgba(0,0,0,0.8);
   text-align: center;
 }
 
-h1, h2 {
+h1, h2.article-title {
   font-family: 'Poiret One', cursive;
 }
 
@@ -97,6 +97,7 @@ h1, h2 {
 
 .btn-xlarge {
   font-size: 1.7em;
+  margin-top: 60px;
 }
 
 .article-actions {
@@ -105,6 +106,18 @@ h1, h2 {
 }
 .description {
   margin-top: 0;
+}
+
+.article-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: solid 1px #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 footer {
