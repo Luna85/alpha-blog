@@ -54,6 +54,10 @@ $navbar-default-bg: rgba(0,0,0,0.8);
   text-align: center;
 }
 
+h1 {
+  font-family: 'Poiret One', cursive;
+}
+
 .jumbotron {
   background-image: asset-url('keyboard_image.jpeg');
   background-size: cover;
