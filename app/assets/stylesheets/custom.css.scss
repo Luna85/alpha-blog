@@ -63,7 +63,7 @@ h1, h2.article-title {
 }
 
 .jumbotron {
-  background-image: asset-url('homepage_image.jpeg');
+  background-image: asset-url('new_homepage_image.jpeg');
   background-size: cover;
   height: 480px;
   box-shadow: 1px 2px 2px #333;
@@ -89,6 +89,12 @@ h1, h2.article-title {
 .btn-xlarge {
   font-size: 1.7em;
   margin-top: 60px;
+  background-color: rgba(0,0,0,0.75);
+  border: none;
+}
+
+.btn-xlarge:hover {
+  box-shadow: 1px -1px 4px #333;
 }
 
 .article-actions {
