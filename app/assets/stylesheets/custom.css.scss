@@ -77,6 +77,8 @@ h1, h2.article-title {
   text-align: center;
   margin-bottom: 22px;
   letter-spacing: -1;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 .jumbotron h1 span {
@@ -107,6 +109,11 @@ h1, h2.article-title {
 
 .btn-xlarge:hover, .btn-xlarge:active {
   box-shadow: 1px -1px 4px #333;
+}
+
+.article-meta-details {
+  border-top: solid 1px #eaeaea;
+  margin-top: 15px;
 }
 
 .article-actions {
@@ -170,7 +177,7 @@ img {
   margin-bottom: 50px;
 }
 
-#about-body {
+#page-background {
   background: aliceblue;
 }
 
